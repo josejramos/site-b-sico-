@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script>
+       var titles = ['Não deixe as grandes empresas te enganarem', 'Juntos somos mais fortes'];
+       var index = 0;
+
+       function changeTitle() {
+           document.getElementById('title').innerText = titles[index];
+           index = (index + 1) % titles.length;
+       }
+
+       setInterval(changeTitle, 5000);
+   
+
+     </script>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="changeTitle()">
+   <div class="section1">
+       <video src="video1.mp4" autoplay muted loop></video>
+       <h1 id="title"></h1>
+    
+   </div>
+   <div class="section2">
+       <h1>A hiprocresia das grandes empresas</h1>
+       <p><br>As grandes corporações do setor de alimentos afirmam estar empenhadas em diminuir a produção de resíduos plásticos.<br> No entanto, a DW, ao analisar essas promessas, constatou que muitas delas não estão sendo cumpridas. Isso sugere uma discrepância entre as declarações públicas dessas empresas e suas ações efetivas. Aparentemente, há uma lacuna entre o que é prometido e o que é realmente realizado quando se trata de reduzir a poluição por plásticos.
+      </p>
+
+        <iframe width="900" height="450" src="https://www.youtube.com/embed/k2qPEMfXwmM?si=mmpGE8PtwaV9NaKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+  </div>
+  <div class="section3">
+      <h1>Projeto inspirador</h1>
+      <p>Diante da situação atual, é verdade que temos muitos projetos inspiradores ao redor do mundo. No entanto, gostaria de destacar a ilha de Bornholm. Bornholm, também conhecida como Boríngia, é uma ilha dinamarquesa situada no mar Báltico. Localizada a leste das demais ilhas da Dinamarca, a menor distância do sul da Suécia e do norte da Alemanha, Bornholm é um lugar de beleza natural e rica história. </p>
+      <p>A visão sustentável da Municipalidade Regional de Bornholm é chamada de “Bright Green Island” (Ilha Verde Brilhante). Com base nos Objetivos de Desenvolvimento Sustentável da ONU, políticos locais, representantes de empresas e cidadãos desenvolveram 8 metas de Bornholm para o desenvolvimento sustentável.Confira a reportagem da DW.</p>
+        
+         <iframe width="900"   height="450" src="https://www.youtube.com/embed/2AkE7_DwVuA?si=dgGnoweHpAeIk6zH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+  </div>
+  <div class="section4">
+    <h1>Creditos</h1>
+    <p>Para saber mais sobre esse tema, recomendo que você visite o site da <a href="https://www.dw.com/pt-br/not%C3%ADcias/s-7111">DW Brasil</a>, uma fonte confiável e independente de informação, que oferece uma perspectiva global e diversa sobre os principais assuntos do mundo. A DW Brasil também produz conteúdo de qualidade sobre temas relevantes para o Brasil, como meio ambiente, direitos humanos, cultura, ciência e tecnologia.</p>
+    <p>Você também pode acompanhar o canal do YouTube da <a href="https://www.youtube.com/@DWBrasil">DW Brasil</a>, onde você encontrará vídeos com análises, reportagens, documentários e entrevistas sobre os temas mais importantes do Brasil e do mundo.</p>
+    <h2>Sobre o contéudo</h2>
+    <p>Este conteúdo não tem fins lucrativos e é apenas para demonstrar habilidades básicas de CSS3, HTML e JavaScript.
+
+    </p>
+</div>
+</body>
+</html>
